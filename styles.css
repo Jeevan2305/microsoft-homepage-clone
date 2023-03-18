@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  color: black;
+}
+
+/* Navigation bar */
+.bodystyle{
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: white;
+}
+
+.navbar-brand img{
+  margin-left: 10px;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+}
+
+/* Showcase */
+.showcase {
+  width: 100%;
+  height: 400px;
+  background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1920x600') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.showcase p{
+  margin-bottom: 10px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.showcase h2{
+  margin-left: 540px;
+}
+
+.showcase a{
+  margin-left: 460px;
+}
+
+/* Services */
+.services{
+  display: flex;
+  justify-content: space-around;
+  margin: 70px;
+  padding: 20px;
+}
+
+.part img{
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Main section */
+.main-sec .row{
+  border-style: none;
+  margin: 40px;
+}
+
+.main-sec .card{
+  border-style: none;
+}
+
+.main-sec .card-text{
+  color: black;
+}
+
+.main-sec img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-sec h5 {
+  margin-bottom: 5px;
+}
+
+.main-sec a {
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Features */
+.features{
+  width: 100%;
+  height: 350px;
+  margin: 90px 10px;
+  background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-S-Light-Background:VP5-1596x600') no-repeat center center/cover;
+}
+
+.features .feat{
+  position:relative;
+  float:right;
+  width: 55%;
+  padding: 100px 0 0 30px;
+}
+
+/* Business */
+.business .row{
+  border-style: none;
+  margin: 40px;
+}
+
+.business .card{
+  border-style: none;
+  margin-top: 10px;
+}
+
+.business img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.business h5 {
+  margin-bottom: 5px;
+}
+
+.business a {
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Social */
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 50px;
+}
+
+.follow *{
+  margin: 3px;
+}
+
+/* Footer */
+.links {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.links ul{
+  list-style: none;
+}
+
+.links-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.links li {
+  line-height: 2.8;
+}
+
+.links a{
+  color: black;
+  text-decoration: none;
+}
+
+.links a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.footer-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-inner span{
+  margin-left: 4px;
+}
+
+.footer div {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.footer div i {
+  margin-right: 10px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.footer a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color: black;
+  text-decoration: underline;
+}
