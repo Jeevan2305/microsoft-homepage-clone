@@ -1,12 +1,6 @@
 # Microsoft Homepage Clone Website
-<table>
-<tr>
-<td>
-  The Microsoft homepage consists of products with the new arrival, recently arrived, and existing products for buying the products developed by Microsoft Corporation.
-</td>
-</tr>
-</table>
 
+The Microsoft homepage consists of products with the new arrival, recently arrived, and existing products for buying the products developed by Microsoft Corporation.
 
 ## Demo
 Here is a working live demo :  https://jeevan2305.github.io/Microsoft_Clone_Website/
